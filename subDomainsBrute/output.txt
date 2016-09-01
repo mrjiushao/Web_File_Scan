@@ -1,0 +1,9 @@
+www.sqgf.com                  	124.205.137.93
+staging.sqgf.com              	220.181.179.8
+homepage1.sqgf.com            	220.181.179.8
+new.sqgf.com                  	124.205.137.69
+hn.sqgf.com                   	124.205.137.84
+pop.sqgf.com                  	163.177.72.143, 163.177.90.125
+smtp.sqgf.com                 	14.17.57.217, 183.57.48.39
+oa.sqgf.com                   	124.205.137.68
+imap.sqgf.com                 	14.17.57.217, 183.57.48.39
