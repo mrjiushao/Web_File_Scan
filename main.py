@@ -5,9 +5,12 @@ import os
 import re
 cwd = os.getcwd()
 print 'Every time the program is started to record clear last time'
-garbage = os.listdir(os.getcwd() + "\\BBScan\\report\\")
-for i in garbage:
-    os.remove(os.getcwd() + "\\BBScan\\report\\" + str(i))
+try:
+    garbage = os.listdir(os.getcwd() + "\\BBScan\\report\\")
+    for i in garbage:
+        os.remove(os.getcwd() + "\\BBScan\\report\\" + str(i))
+except Exception,e:
+    pass
 domain = raw_input('Please enter the domain name (No HTTP://):\n')
 os.chdir(os.getcwd() + '\\subDomainsBrute\\')
 os.system(os.getcwd() + '/subDomainsBrute.py '+str(domain) + " -o output.txt")
